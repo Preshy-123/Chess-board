@@ -1,0 +1,144 @@
+/*h1 {
+  color: blue;
+  text-align: center;
+  font: bold;
+}
+h2 {
+  color: antiquewhite;
+}
+h3 {
+  color: black;
+}
+h4 {
+  color: darkred;
+}
+h5 {
+  color: brown;
+}
+h6 {
+  color: chartreuse;
+}
+p {
+  color: crimson;
+  font-size: larger;
+}
+.Precious {
+  color: red;
+}
+
+#micheal {
+  color: brown;
+}
+
+#micheal {
+  color: red !important;
+}
+
+/* styling my website */
+
+/*.parents {
+  height: 50vh;
+  width: 40vw;
+  background-color: red;
+  position: relative;
+}
+
+.child {
+  height: 20vh;
+  width: 10vw;
+  background-color: yellow;
+  border-radius: 1cm;
+  position: absolute;
+  top: 10em;
+  left: 20em;
+}
+
+.prcious {
+  text-align: center;
+}
+.matter {
+  height: 30vh;
+  width: 20vw;
+  background-color: yellow;
+  position: relative;
+}
+.space {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin-top: 2em;
+  border-radius: 3em;
+  align-items: center;
+}
+button {
+  padding: 0.5em;
+  margin-top: 2.5em;
+  margin-left: 6em;
+}
+.container {
+  background-color: aqua;
+  height: 40vh;
+  width: 40vw;
+  border-radius: 3em;
+  box-shadow: black;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+/*styling a form */
+
+.Ludo {
+  width: 50vw;
+  height: 30vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Ludo {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.chess-board {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  border: 4px solid black;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.square {
+  width: 60vw;
+  height: 60vh;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
