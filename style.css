@@ -89,7 +89,7 @@ button {
 }
 /*styling a form */
 
-.Ludo {
+/* .Ludo {
   width: 50vw;
   height: 30vh;
   display: grid;
@@ -140,5 +140,35 @@ body {
 }
 
 .black {
+  background-color: black;
+/* } */
+
+.container {
+  width: 85vw;
+  height: 80vh;
+  border-radius: 3em;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.child {
+  display: flex;
+  flex-direction: row;
+  height: 12.5%;
+  margin-left: 20%;
+}
+.square {
+  border: 1px solid black;
+  flex-basis: 12.5%;
+}
+
+.child:nth-child(odd) .square:nth-child(even) {
+  background-color: black;
+}
+
+.child:nth-child(even) .square:nth-child(odd) {
   background-color: black;
 }
