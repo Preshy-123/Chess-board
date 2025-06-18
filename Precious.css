@@ -49,12 +49,10 @@
   height: 20vh;
   background-color: purple;
   margin-top: 5px;
-  display: flex;
 }
 .child4 {
   width: 10vw;
   height: 20vh;
   background-color: red;
   margin-top: 5px;
-  display: flex;
 }
