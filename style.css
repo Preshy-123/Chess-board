@@ -194,10 +194,42 @@ h1 {
   margin-top: 5px;
   background-color: yellow;
 }
-.fleid {
+.field {
   width: 20vw;
   height: 20vh;
   border-radius: 3em;
   margin-top: 5px;
   background-color: black;
+}
+
+.header {
+  width: 100vw;
+  height: 70vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.header2 {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  background-color: blue;
+  padding-bottom: 30px;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.header2 h1 {
+  padding-right: 40%;
+  align-items: start;
+}
+
+.header2 a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: white;
+  margin-bottom: 4em;
+}
+.header2 a:hover {
+  color: white;
+  box-shadow: 10px;
 }

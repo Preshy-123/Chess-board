@@ -1,4 +1,4 @@
-.parent {
+/* .parent {
   width: 50vw;
   height: 50vh;
   display: flex;
@@ -22,4 +22,39 @@
   height: 40vh;
   margin-top: 5px;
   background-color: black;
+} */
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: min-content;
+  align-items: end;
+}
+.child1 {
+  width: 10vw;
+  height: 20vh;
+  background-color: black;
+  margin-top: 5px;
+}
+.child2 {
+  width: 10vw;
+  height: 20vh;
+  background-color: blue;
+  margin-top: 5px;
+}
+.child3 {
+  width: 10vw;
+  height: 20vh;
+  background-color: purple;
+  margin-top: 5px;
+  display: flex;
+}
+.child4 {
+  width: 10vw;
+  height: 20vh;
+  background-color: red;
+  margin-top: 5px;
+  display: flex;
 }
