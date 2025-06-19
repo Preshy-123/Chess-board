@@ -203,33 +203,42 @@ h1 {
 }
 
 .header {
-  width: 100vw;
+  width: 70vw;
   height: 70vh;
   background-color: black;
   color: white;
   text-align: center;
 }
 .header2 {
-  width: 100vw;
+  width: 70vw;
   height: 10vh;
   display: flex;
   background-color: blue;
-  padding-bottom: 30px;
-  justify-content: space-around;
   padding-top: 30px;
+  justify-content: space-around;
 }
-.header2 h1 {
-  padding-right: 40%;
-  align-items: start;
+.logo {
+  font-size: xx-large;
+  text-decoration: none;
+  padding-right: 30%;
 }
 
-.header2 a {
+.list {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
   color: white;
   margin-bottom: 4em;
+  text-decoration: none;
+  justify-content: space-around;
+  display: flex;
 }
 .header2 a:hover {
-  color: white;
+  color: yellow;
   box-shadow: 10px;
+}
+footer {
+  font-size: larger;
+  margin-top: 30%;
+  gap: 5%;
+  margin-left: 50%;
 }

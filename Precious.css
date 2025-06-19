@@ -25,34 +25,38 @@
 } */
 
 .container {
-  width: 50vw;
-  height: 50vh;
+  width: 10vw;
   display: grid;
-  grid-template-rows: min-content;
-  grid-template-columns: min-content;
-  align-items: end;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  justify-content: center;
+  gap: 20px;
 }
 .child1 {
   width: 10vw;
   height: 20vh;
-  background-color: black;
-  margin-top: 5px;
+  background-color: green;
+  align-content: center;
+  text-align: center;
 }
 .child2 {
   width: 10vw;
   height: 20vh;
   background-color: blue;
-  margin-top: 5px;
+  align-content: center;
+  text-align: center;
 }
 .child3 {
   width: 10vw;
   height: 20vh;
   background-color: purple;
-  margin-top: 5px;
+  align-content: center;
+  text-align: center;
 }
 .child4 {
   width: 10vw;
   height: 20vh;
   background-color: red;
-  margin-top: 5px;
+  align-content: center;
+  text-align: center;
 }
